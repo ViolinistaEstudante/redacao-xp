@@ -1,0 +1,139 @@
+/* Resetando o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f3f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+p {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Espaço para imagem abaixo do título */
+.imagem-titulo {
+    margin: 20px 0;
+}
+
+.imagem-titulo img {
+    width: 100px;  /* Define o tamanho da imagem */
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-titulo {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-titulo label {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-titulo input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o campo de tema */
+.input-tema {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-tema label {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-tema select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.editor {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    font-size: 1.2em;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.info {
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 6px;
+    width: 48%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #7f8c8d;
+}
