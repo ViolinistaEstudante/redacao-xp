@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redação Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Redação Online</h1>
+            <p>Escreva, edite e conte suas palavras!</p>
+            
+            <!-- Espaço para a imagem -->
+            <div class="imagem-titulo">
+                <img src="imagem.jpg" alt="Imagem Geek" />
+            </div>
+        </header>
+        
+        <main>
+            <div class="input-titulo">
+                <label for="titulo">Título da Redação:</label>
+                <input type="text" id="titulo" placeholder="Digite o título aqui...">
+            </div>
+
+            <!-- Novo campo para selecionar o tema -->
+            <div class="input-tema">
+                <label for="tema">Tema da Redação:</label>
+                <select id="tema">
+                    <option value="">Selecione um tema...</option>
+                    <option value="Tecnologia e o Futuro">Tecnologia e o Futuro</option>
+                    <option value="Mudanças Climáticas">Mudanças Climáticas</option>
+                    <option value="A Influência das Redes Sociais">A Influência das Redes Sociais</option>
+                    <option value="Educação no Século XXI">Educação no Século XXI</option>
+                    <option value="Liberdade de Expressão">Liberdade de Expressão</option>
+                </select>
+            </div>
+
+            <section class="editor">
+                <textarea id="redacao" placeholder="Escreva sua redação aqui..."></textarea>
+            </section>
+        
+            <section class="informacoes">
+                <div class="info">
+                    <span>Palavras: <span id="contador-palavras">0</span></span>
+                </div>
+                <div class="info">
+                    <span>Caracteres: <span id="contador-caracteres">0</span></span>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Você</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
